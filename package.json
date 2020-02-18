@@ -1,0 +1,22 @@
+{
+  "name": "graphqllabex",
+  "version": "1.0.0",
+  "description": "Experimentação de software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamezface/GraphQL-Lab-Exp-Software.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamezface/GraphQL-Lab-Exp-Software/issues"
+  },
+  "homepage": "https://github.com/gamezface/GraphQL-Lab-Exp-Software#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
