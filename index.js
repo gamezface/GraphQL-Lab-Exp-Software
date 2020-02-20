@@ -4,11 +4,6 @@ const fs = require('fs')
 axios.defaults.headers.common['Authorization'] = 'Bearer ';
 
 var after = ""
-
-var fullData = []
-var current = 0
-const limit = 1000
-
 const getData = async () => {
   try {
     const query = `query ExLab1 {
@@ -24,7 +19,6 @@ const getData = async () => {
               }
             }
           }`;
-    //   `query example{ search (query: "stars:>10", type: REPOSITORY, first:20${after}) { pageInfo { hasNextPage endCursor } nodes { ... on Repository { nameWithOwner createdAt pullRequests(states: MERGED) { totalCount } stargazers { totalCount } releases { totalCount } updatedAt primaryLanguage { name } closedIssues: issues(states:CLOSED) { totalCount } totalIssues: issues { totalCount } } } } }`
     const result = await axios.post('https://api.github.com/graphql', {
       query: query
     })
