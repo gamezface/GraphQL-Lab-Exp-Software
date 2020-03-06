@@ -3,10 +3,10 @@ const fs = require('fs')
 const Json2Csv = require("json2csv").parse;
 var cursor = 0
 var after = ""
-const limit = 200;
+const limit = 1000;
 var resultList = []
 
-axios.defaults.headers.common['Authorization'] = 'Bearer ';
+axios.defaults.headers.common['Authorization'] = 'Bearer cdc2a6d915db9f64ff09e0993f4deac3097f3998';
 
 const getData = async () => {
   try {
