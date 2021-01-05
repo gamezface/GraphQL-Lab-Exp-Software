@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gamezface/GraphQL-Lab-Exp-Software#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "json2csv": "^4.5.4"
   }
 }
